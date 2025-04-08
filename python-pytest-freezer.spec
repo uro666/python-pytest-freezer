@@ -1,6 +1,7 @@
 %define module pytest-freezer
 %define oname pytest_freezer
-%bcond_without test
+# disable test on abf
+%bcond_with test
 
 Name:		python-pytest-freezer
 Version:	0.4.9
